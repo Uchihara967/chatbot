@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+
+#container {
+    margin-top: 30px;
+}
+
+#chatbox {
+    width: 400px;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 10px;
+    overflow-y: auto;
+    margin: 0 auto;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#textArea {
+    width: 340px;
+    text-align: start;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 8px;
+}
+
+#btn {
+    background-color: rgb(59, 59, 233);
+    color: #fff;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 6px 10px;
+}
+
+.userMessage {
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(31, 238, 90);
+    color: #000;
+    border-radius: 40px;
+    line-height: 1.4em;
+    margin: 10px 20px;
+    padding: 5px 8px;
+}
+
+.botMessage {
+    width: fit-content;
+    /* max-width: 40%; */
+    text-align: center;
+    background-color: #545252;
+    color: #fff;
+    border-radius: 40px;
+    line-height: 1.4em;
+    margin: 10px 20px;
+    padding: 5px 8px;
+}
+
+.userRight {
+    margin-left: auto;
+}
