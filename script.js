@@ -12,9 +12,9 @@ btn.addEventListener('click', () => {
     }
 
     const botRespones = {
-        '乃木坂': '弓木奈於',
-        '櫻坂': '井上梨名',
-        '日向坂': '宮地すみれ',        
+        'おはよう': 'おはよう',
+        'こんにちは': 'こんにちは',
+        'こんばんは': 'こんばんは',        
     }
 
     const userElment = document.createElement('div');
@@ -22,7 +22,7 @@ btn.addEventListener('click', () => {
     userElment.innerText = textArea.value;
     chatbox.appendChild(userElment);
 
-    let respones = '坂道グループを入力して下さい';
+    let respones = 'おはよう、こんにちは、こんばんはのいずれかを入力してください';
 
     for(let key in botRespones) {
         if(textArea.value.includes(key)) {
